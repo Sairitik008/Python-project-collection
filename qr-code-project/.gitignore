@@ -1,0 +1,68 @@
+# ──────────────────────────────
+# Python Bytecode
+# ──────────────────────────────
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# ──────────────────────────────
+# Virtual Environment
+# ──────────────────────────────
+venv/
+env/
+env.bak/
+.venv/
+
+# VSCode virtual environment folder
+.vscode/
+
+# ──────────────────────────────
+# Environment Variables / Secrets
+# ──────────────────────────────
+*.env
+*.env.local
+
+# ──────────────────────────────
+# Logs
+# ──────────────────────────────
+*.log
+logs/
+*.pid
+
+# ──────────────────────────────
+# OS / Editor junk files
+# ──────────────────────────────
+.DS_Store
+Thumbs.db
+.idea/
+*.swp
+*.swo
+
+# ──────────────────────────────
+# Python build artifacts
+# ──────────────────────────────
+build/
+dist/
+*.egg-info/
+*.egg
+
+# ──────────────────────────────
+# Flask / Django cache
+# ──────────────────────────────
+instance/
+.pytest_cache/
+.cache/
+
+# ──────────────────────────────
+# Generated files
+# (your QR generator outputs images here)
+# ──────────────────────────────
+static/qrs/*.png
+
+# Optional: ignore all static files except important assets
+# static/*
+# !static/css/
+# !static/js/
+# !static/images/
+
